@@ -1,0 +1,50 @@
+//importing fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+//sizes
+$mobile:375px;
+$tablet:768px;
+$desktop:1280px;
+
+//fonts
+$fontBody: 'Open Sans';
+$fontPrimary: 'Poppins';
+
+//colors - primary
+$white: #ffffff;
+$primaryPink:	#F00098;
+$primaryLightPink:#FF8FD8;
+$primaryLightRed:#FF4242;
+
+//Colors -Neutral
+$neutralVeryDarkCyan: #00252E;
+$VeryPaleBlue:#F5FAFF;
+$gray: #c1c1c1;
+
+
+
+body{
+
+  font-family:$fontBody;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: $fontPrimary;
+}
+
+p{
+  font-size: 0.9rem;
+}

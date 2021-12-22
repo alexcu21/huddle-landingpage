@@ -1,0 +1,21 @@
+.data-info{
+  .info-numbers{
+    margin: 4rem auto;
+    padding: 0 4rem;
+    h2{
+      font-size: 3rem;
+      color:$neutralVeryDarkCyan;
+      margin: 0;
+    }
+    p{
+      color:$gray;
+    }
+  }
+
+  @media screen and (min-width: $desktop){
+    min-width: 960px;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+}

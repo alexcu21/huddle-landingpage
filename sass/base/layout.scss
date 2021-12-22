@@ -1,0 +1,31 @@
+.header-content, .content, .footer-content{
+  padding: 2rem;
+  @media screen and (min-width: $desktop) {
+      padding: 3rem 10rem;
+  }
+
+  @media (min-width: $tablet) {
+    padding: 3rem 10rem;
+  }
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.numbers-items{
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: $desktop){
+    flex-direction:row;
+  }
+}
+
+
+footer{
+  background: $neutralVeryDarkCyan;
+  color: white;
+}

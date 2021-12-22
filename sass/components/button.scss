@@ -1,0 +1,26 @@
+@import "../base/general";
+
+.btn {
+  border-radius: 56px;
+  padding: 0.5rem 1rem;
+  border:1px solid $primaryLightPink;
+  display: block;
+  background-color: transparent;
+}
+
+.btn-large{
+  background-color: $primaryLightPink;
+  color:$white;
+}
+
+.btn-shadow{
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.19);
+}
+
+.button-square{
+  background-color: $primaryPink;
+  border-radius: 10px;
+  color:$white;
+  padding: 1rem 3rem;
+  float: right;
+}

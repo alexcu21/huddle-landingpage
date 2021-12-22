@@ -1,0 +1,17 @@
+.hero{
+  margin: 6rem auto;
+  text-align: center;
+  h1{
+    line-height: 1.7;
+  }
+  p{
+    line-height: 1.6;
+    margin: 2rem auto;
+    @media screen and (min-width: $desktop) {
+      width: 50%;
+    }
+  }
+  .btn-hero{
+    margin: 3rem auto;
+  }
+}
