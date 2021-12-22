@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
 body {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   font-size: 16px; }
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins"; }
+  font-family: "Poppins", sans-serif; }
 
 p {
   font-size: 0.9rem; }
@@ -110,7 +110,7 @@ footer .attribution {
     color: white; }
 
 body {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   font-size: 16px; }
@@ -125,7 +125,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins"; }
+  font-family: "Poppins", sans-serif; }
 
 p {
   font-size: 0.9rem; }

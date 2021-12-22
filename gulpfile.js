@@ -8,7 +8,8 @@ const browserSync = require('browser-sync').create()
 gulp.task('sass', function () {
     return gulp.src('./sass/main.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./css'))
+        .pipe(gulp.dest('./css' +
+            ''))
         .pipe(browserSync.stream())
 
 });
