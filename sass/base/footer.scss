@@ -6,6 +6,7 @@ footer{
   .footer-content{
     @media screen and (min-width: $desktop){
       display: flex;
+      justify-content: space-evenly;
       .news-wrapper{
         order: 3;
         padding-left: 5rem;
@@ -40,11 +41,38 @@ footer{
   }
   .news-wrapper{
     margin: 3rem auto;
-    .input-text{
-      width: 100%;
-      border-radius: 10px;
-      height: 2rem;
-      margin: 2rem auto;
+    @media screen and (min-width: $desktop) {
+      width: clamp(20rem, 28rem, 35rem);
+      padding-left: 0!important;
+      margin-left: 0!important;
+      margin: 0;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+
+    }
+    .subscribe-form{
+      display: flex;
+      flex-direction: column;
+      @media screen and (min-width: $desktop){
+        flex-direction: row;
+      }
+      align-items: center;
+      .input-text{
+        width: 100%;
+        border-radius: 10px;
+        height: 2.8rem;
+        margin: 2rem auto;
+      }
+      .input-subscribe{
+        background-color: $primaryPink;
+        border-radius: 10px;
+        color:$white;
+        padding: 1rem 3rem;
+        float: right;
+        @media screen and (min-width: $desktop){
+          margin-left: 1rem;
+        }
+      }
     }
 
   }
@@ -63,6 +91,9 @@ footer{
     margin-bottom: 5rem;
     & > p{
       margin-bottom: 3rem;
+    }
+    @media screen and (min-width: $desktop){
+      width: clamp(15rem, 24rem, 30rem);
     }
   }
 

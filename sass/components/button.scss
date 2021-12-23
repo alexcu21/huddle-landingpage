@@ -11,6 +11,11 @@
 .btn-large{
   background-color: $primaryLightPink;
   color:$white;
+  @media screen and (min-width: $desktop){
+    margin: 2rem auto;
+    padding: 1.2rem 5rem;
+    font-weight: bold;
+  }
 }
 
 .btn-shadow{

@@ -7,7 +7,8 @@ body {
   font-size: 16px; }
 
 .img-responsive {
-  width: 100%;
+  max-width: 100%;
+  display: block;
   height: auto; }
 
 h1,
@@ -20,6 +21,11 @@ h6 {
 
 p {
   font-size: 0.9rem; }
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto; }
 
 .header-content, .content, .footer-content {
   padding: 2rem; }
@@ -51,7 +57,8 @@ footer {
 
 @media screen and (min-width: 1280px) {
   footer .footer-content {
-    display: flex; }
+    display: flex;
+    justify-content: space-evenly; }
     footer .footer-content .news-wrapper {
       order: 3;
       padding-left: 5rem;
@@ -82,11 +89,35 @@ footer .footer-wrapper {
 
 footer .news-wrapper {
   margin: 3rem auto; }
-  footer .news-wrapper .input-text {
-    width: 100%;
-    border-radius: 10px;
-    height: 2rem;
-    margin: 2rem auto; }
+  @media screen and (min-width: 1280px) {
+    footer .news-wrapper {
+      width: clamp(20rem, 28rem, 35rem);
+      padding-left: 0 !important;
+      margin-left: 0 !important;
+      margin: 0;
+      margin-top: 5rem;
+      margin-bottom: 5rem; } }
+  footer .news-wrapper .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    @media screen and (min-width: 1280px) {
+      footer .news-wrapper .subscribe-form {
+        flex-direction: row; } }
+    footer .news-wrapper .subscribe-form .input-text {
+      width: 100%;
+      border-radius: 10px;
+      height: 2.8rem;
+      margin: 2rem auto; }
+    footer .news-wrapper .subscribe-form .input-subscribe {
+      background-color: #F00098;
+      border-radius: 10px;
+      color: #ffffff;
+      padding: 1rem 3rem;
+      float: right; }
+      @media screen and (min-width: 1280px) {
+        footer .news-wrapper .subscribe-form .input-subscribe {
+          margin-left: 1rem; } }
 
 footer .contact-item {
   display: flex; }
@@ -100,6 +131,9 @@ footer .contact-info {
   margin-bottom: 5rem; }
   footer .contact-info > p {
     margin-bottom: 3rem; }
+  @media screen and (min-width: 1280px) {
+    footer .contact-info {
+      width: clamp(15rem, 24rem, 30rem); } }
 
 footer .attribution {
   color: white;
@@ -116,7 +150,8 @@ body {
   font-size: 16px; }
 
 .img-responsive {
-  width: 100%;
+  max-width: 100%;
+  display: block;
   height: auto; }
 
 h1,
@@ -130,6 +165,11 @@ h6 {
 p {
   font-size: 0.9rem; }
 
+img {
+  max-width: 100%;
+  display: block;
+  height: auto; }
+
 .btn {
   border-radius: 56px;
   padding: 0.5rem 1rem;
@@ -140,6 +180,11 @@ p {
 .btn-large {
   background-color: #FF8FD8;
   color: #ffffff; }
+  @media screen and (min-width: 1280px) {
+    .btn-large {
+      margin: 2rem auto;
+      padding: 1.2rem 5rem;
+      font-weight: bold; } }
 
 .btn-shadow {
   box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.19); }
@@ -164,14 +209,22 @@ p {
   text-align: center; }
   .hero h1 {
     line-height: 1.7; }
+    @media screen and (min-width: 1280px) {
+      .hero h1 {
+        font-size: 2.5rem; } }
   .hero p {
     line-height: 1.6;
     margin: 2rem auto; }
     @media screen and (min-width: 1280px) {
       .hero p {
-        width: 50%; } }
+        width: clamp(6rem, 28rem, 30rem); } }
   .hero .btn-hero {
     margin: 3rem auto; }
+    @media screen and (min-width: 1280px) {
+      .hero .btn-hero {
+        margin: 0 auto;
+        padding: 1.2rem 5rem;
+        font-weight: bold; } }
 
 .data-info .info-numbers {
   margin: 4rem auto;

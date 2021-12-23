@@ -21,8 +21,6 @@ $neutralVeryDarkCyan: #00252E;
 $VeryPaleBlue:#F5FAFF;
 $gray: #c1c1c1;
 
-
-
 body{
 
   font-family:$fontBody;
@@ -32,7 +30,8 @@ body{
 }
 
 .img-responsive{
-  width: 100%;
+  max-width: 100%;
+  display: block;
   height: auto;
 }
 
@@ -48,3 +47,10 @@ h6{
 p{
   font-size: 0.9rem;
 }
+
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
