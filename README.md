@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository](https://github.com/alexcu21/card-component)
+- Solution URL: [Repository](https://github.com/alexcu21/huddle-landingpage)
 - Live Site URL: [live site](https://alexcu21.github.io/huddle-landingpage/)
 
 ## My process
