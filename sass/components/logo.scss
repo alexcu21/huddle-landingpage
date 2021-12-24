@@ -1,9 +1,19 @@
 .logo{
   width: 100%;
   height: auto;
+  @media screen and (min-width: $desktop){
+    width: 100%;
+    max-width: 13rem;
+    height: auto;
+  }
 }
 
 .logo-nav{
   max-width: 6rem;
   height: 1.2rem;
+  @media screen and (min-width: $desktop){
+    width: 100%;
+    max-width: 13rem;
+    height: auto;
+  }
 }

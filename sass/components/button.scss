@@ -6,6 +6,16 @@
   border:1px solid $primaryLightPink;
   display: block;
   background-color: transparent;
+  color: $primaryLightPink;
+  font-weight: bold;
+  @media screen and (min-width: $desktop){
+   padding: 1rem 2rem;
+  }
+  &:hover{
+    background-color: $primaryLightPink;
+    color:$white;
+    cursor: pointer;
+  }
 }
 
 .btn-large{
@@ -15,6 +25,11 @@
     margin: 2rem auto;
     padding: 1.2rem 5rem;
     font-weight: bold;
+  }
+  &:hover{
+    background-color: transparent;
+    color: $primaryLightPink;
+    cursor: pointer;
   }
 }
 

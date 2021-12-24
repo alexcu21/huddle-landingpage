@@ -67,10 +67,17 @@ footer{
         background-color: $primaryPink;
         border-radius: 10px;
         color:$white;
+        font-weight: bold;
         padding: 1rem 3rem;
         float: right;
         @media screen and (min-width: $desktop){
           margin-left: 1rem;
+          font-size: 0.9rem;
+        }
+        &:hover{
+          background-color: $white;
+          color: $primaryLightPink;
+          cursor: pointer;
         }
       }
     }

@@ -46,6 +46,9 @@ h6{
 
 p{
   font-size: 0.9rem;
+  @media screen and (min-width: $desktop){
+    font-size: 1.2rem;
+  }
 }
 
 img{

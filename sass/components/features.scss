@@ -109,7 +109,9 @@
     color: $neutralVeryDarkCyan;
     h3{
       margin-top: 5rem;
-
+      @media screen and (min-width: $desktop){
+        font-size: 2rem;
+      }
     }
     p{
       line-height: 1.6;
@@ -128,6 +130,9 @@
           order: 1;
           text-align: left;
           padding-right: 3rem;
+          @media screen and (min-width: $desktop){
+            font-size: 1.2rem;
+          }
         }
 
         .text-right{
